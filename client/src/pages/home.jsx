@@ -11,7 +11,7 @@ function Skeleton() {
           className="text-3xl font-bold text-white"
           whileHover={{ color: "#3b82f6" }}
         >
-          FlashDash
+          Quizo
         </motion.div>
         <div className="h-10 w-24 rounded bg-zinc-800"></div>
       </nav>
@@ -56,7 +56,7 @@ export default function HomePage() {
           className="text-3xl font-bold text-white"
           whileHover={{ color: "#3b82f6" }}
         >
-          FlashDash
+          Quizo
         </motion.div>
         <button
           onClick={() => navigate("/login")}

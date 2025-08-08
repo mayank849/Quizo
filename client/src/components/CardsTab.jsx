@@ -34,14 +34,14 @@ export default function CardsTab() {
             isCreating={true} // Pass a prop to indicate this is a new tile
           />
         )}
-        {questions.map((question) => (
-          <Tile
-            key={question.id}
-            question={question}
-            onDelete={() => deleteQuestion(question.id)}
-            onUpdate={(updatedData) => updateQuestion(question.id, updatedData)}
-          />
-        ))}
+          {questions.map((question) => (
+        <Tile
+          key={question.id}
+          question={question}
+          onDelete={() => deleteQuestion(question.id)}
+          onUpdate={(updatedData) => updateQuestion(question.id, updatedData)}
+        />
+      ))}
       </div>
     </>
   );
